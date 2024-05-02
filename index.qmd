@@ -1,0 +1,48 @@
+---
+project:
+  type: website
+ 
+  
+website:
+  title: "ashfrank1.github.io"
+  navbar:
+  left:
+    - href: index.qmd
+      text: Home
+    - about.qmd
+    - EPPS6354.qmd
+  
+    
+    
+format: 
+  html: 
+    theme: cosmo
+    css: styles.css
+    toc: true
+
+editor: visual
+---
+
+Ashleigh Frank
+
+![](images/IMG_2856%20(1).JPG){width="283"}
+
+I am a master's student in Social Data Analytics and Research at UTD. I received my Bachelor of Science in Sociology with a minor in Psychology from UH.
+
+### More Information
+
+Interests:
+
+-   Data Analysis
+
+-   Statistics
+
+-   Crocheting
+
+### Research
+
+### Contact Me
+
+[amf230004\@utdallas.edu](mailto:%20amf230004@utdallas.edu)
+
+[Website](https://ashfrank1.github.io/ashfrank1)
