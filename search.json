@@ -4,14 +4,14 @@
     "href": "index.html",
     "title": "ashfrank1.github.io",
     "section": "",
-    "text": "Ashleigh Frank\n\nI am a master’s student in Social Data Analytics and Research at UTD. I received my Bachelor of Science in Sociology with a minor in Psychology from UH.\n\nMore Information\nInterests:\n\nData Analysis\nStatistics\nCrocheting\n\n\n\nResearch\n\n\nContact Me\namf230004@utdallas.edu\nWebsite"
+    "text": "Ashleigh Frank\n\n\ncairo_pdf(\"assingment 2 .pdf\", width = 6, height = 6, bg= \"transparent\" )\n\nI am a master’s student in Social Data Analytics and Research at UTD. I received my Bachelor of Science in Sociology with a minor in Psychology from UH.\n\nMore Information\nInterests:\n\nData Analysis\nStatistics\nCrocheting\n\n\n\nResearch\n\n\nContact Me\namf230004@utdallas.edu\nWebsite"
   },
   {
     "objectID": "about.html",
     "href": "about.html",
     "title": "About",
     "section": "",
-    "text": "About this site"
+    "text": "About this site\nI use this site to show my accomplishments and projects in my classes."
   },
   {
     "objectID": "test.html",
@@ -26,5 +26,12 @@
     "title": "EPPS6354",
     "section": "",
     "text": "This site is used for my Information Management class (EPPS6354).\nAssignment 1\nAssignment 2\nAssignment 3\nAssignment 4\nAssignment 5\nAssignment 6\nDatabase Project Slides\nhttps://ashfrank1.shinyapps.io/ProjectApplication"
+  },
+  {
+    "objectID": "EPPS6302.html",
+    "href": "EPPS6302.html",
+    "title": "EPPS6302",
+    "section": "",
+    "text": "Methods of Data Collection and Production"
   }
 ]
