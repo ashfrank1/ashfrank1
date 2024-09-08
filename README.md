@@ -1,4 +1,7 @@
 ## Hi there 👋 This repository is used for the graduate classes. I am attaining my master's in social data analytics. Follow my journey through my classes. 
+## https://ashfrank1.github.io/ashfrank1/
+## https://ashfrank1.shinyapps.io/ProjectApplication
+
 ## I have uploaded my assignments from Information Managemnet (EPPS 6346) and I will post assignments from Methods of Data Collection and Production (EPPS 6302)
 
 <!--
