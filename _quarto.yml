@@ -4,7 +4,6 @@ project:
 website:
   title: "ashfrank1.github.io"
   navbar:
-    background: primary
     left:
       - href: index.qmd
         text: Home
