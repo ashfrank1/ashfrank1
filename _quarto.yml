@@ -1,0 +1,25 @@
+project:
+  type: website
+
+website:
+  title: "ashfrank1.github.io"
+  navbar:
+    background: primary
+    left:
+      - href: index.qmd
+        text: Home
+      - about.qmd
+      - EPPS6354.qmd
+      - EPPS6302.qmd
+      - href: AshleighFrankResume.pdf 
+        text: Resume
+    
+
+format:
+  html:
+    theme: yeti
+    css: bootstrap.css
+    toc: true
+
+editor: visual
+
