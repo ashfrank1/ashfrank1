@@ -32,7 +32,7 @@
     "href": "EPPS6302.html",
     "title": "EPPS6302",
     "section": "",
-    "text": "Methods of Data Collection and Production"
+    "text": "Methods of Data Collection and Production\n\nAssignment 2: R-package Google trends data vs. downloaded data on Google trends.\nDifferences: Downloaded Google trends data is easier for a quick look, and gives daily or weekly intervals. It is less adjustable with the time frame. “gtrendsR” package allows for more in-depth parameters of the search with time intervals and interest over time. The package allows for in-depth research of the data and data manipulation."
   },
   {
     "objectID": "Resume.html",
