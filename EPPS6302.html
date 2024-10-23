@@ -130,6 +130,7 @@ ul.task-list li input[type="checkbox"] {
   <ul>
   <li><a href="#assignment-2" id="toc-assignment-2" class="nav-link active" data-scroll-target="#assignment-2">Assignment 2:</a></li>
   <li><a href="#assignment-3" id="toc-assignment-3" class="nav-link" data-scroll-target="#assignment-3">Assignment 3</a></li>
+  <li><a href="#assignment-4" id="toc-assignment-4" class="nav-link" data-scroll-target="#assignment-4">Assignment 4</a></li>
   <li><a href="#resources" id="toc-resources" class="nav-link" data-scroll-target="#resources">Resources:</a></li>
   </ul>
 </nav>
@@ -171,6 +172,26 @@ ul.task-list li input[type="checkbox"] {
 <p><img src="images/LexicalPresidentPlot.png" class="img-fluid"></p>
 <p>Analyze U.S. presidential inaugural speeches: The use of “American” throughout the speeches is a fairly common used word but have varying distributions. Clinton, Trump and Biden have dense clusters of the usage of the word towards the end of their speech. This could be in part to address a focus on national rhetoric. The use of the word “Citizens” is mostly used as an address to people in the beginning of speeches indicated by the first mark towards the beginning of most of the speeches. In earlier speeches, the use of the word is less prominent, showing a shift in addressing people as active participants in government. The use of “freedom” is used fairly frequently. Bush and Reagan show heavy usage, indicating their political ideologies and focus on liberty during their presidency. In more recent speeches, Obama, Trump and Biden, use the word less frequently, showing a shift in the political focus.</p>
 <p>What is Wordfish? Wordfish is a Poisson scaling model of one-dimensional document positions. It allows for scaling documents without the need for reference scores/texts and uses unsupervised text scaling methods. It estimates the positions of documents based on observed word frequencies.</p>
+</section>
+<section id="assignment-4" class="level3">
+<h3 class="anchored" data-anchor-id="assignment-4">Assignment 4</h3>
+<p>Web Scraping</p>
+<p>Using rvest to scrape Wikipedia page of foreign reserve data. This is how I modified the code to scrape the second table in the wiki page.</p>
+<pre><code>#scrape second table assignment 4
+
+url &lt;- 'https://en.wikipedia.org/wiki/List_of_countries_by_foreign-exchange_reserves'
+#Reading the HTML code from the Wiki website
+wikiforreserve &lt;- read_html(url)
+class(wikiforreserve)
+
+currencyex &lt;- wikiforreserve %&gt;%
+  html_nodes(xpath='//*[@id="mw-content-text"]/div[1]/table[2]') %&gt;%
+  html_table()
+class(currencyex) # Why the first column is not scrapped?
+curre &lt;- currencyex [[1]][,c(1, 2,3,4,5,6,7,8,9,10,11,12)]
+names(curre) &lt;- c("Quarter", "USD", "EUR", "JPY","GBP", "CAD","RMB", "AUD", "CHF", "OtherCurrencies", "UnallocatedReserves", "Total")
+write.csv(curre, "currencycomp.csv", row.names = FALSE)</code></pre>
+<p>The scraped data has some data inconsistency with how it is pulled from the URL. The table column names has be renamed or sometimes re-done to correct class. With the downloading from <a href="https://www.govinfo.gov/app/search/">GovInfo</a>, there has been delays with how you pull to avoid being flagged for suspicion. This makes the process slower, especially when downloading large data sets. With the Wikipedia data, the best way to improve is improving data type conversation.</p>
 </section>
 <section id="resources" class="level3">
 <h3 class="anchored" data-anchor-id="resources">Resources:</h3>
