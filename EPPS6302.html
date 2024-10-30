@@ -131,6 +131,7 @@ ul.task-list li input[type="checkbox"] {
   <li><a href="#assignment-2" id="toc-assignment-2" class="nav-link active" data-scroll-target="#assignment-2">Assignment 2:</a></li>
   <li><a href="#assignment-3" id="toc-assignment-3" class="nav-link" data-scroll-target="#assignment-3">Assignment 3</a></li>
   <li><a href="#assignment-4" id="toc-assignment-4" class="nav-link" data-scroll-target="#assignment-4">Assignment 4</a></li>
+  <li><a href="#assignment-5" id="toc-assignment-5" class="nav-link" data-scroll-target="#assignment-5">Assignment 5</a></li>
   <li><a href="#resources" id="toc-resources" class="nav-link" data-scroll-target="#resources">Resources:</a></li>
   </ul>
 </nav>
@@ -192,6 +193,16 @@ curre &lt;- currencyex [[1]][,c(1, 2,3,4,5,6,7,8,9,10,11,12)]
 names(curre) &lt;- c("Quarter", "USD", "EUR", "JPY","GBP", "CAD","RMB", "AUD", "CHF", "OtherCurrencies", "UnallocatedReserves", "Total")
 write.csv(curre, "currencycomp.csv", row.names = FALSE)</code></pre>
 <p>The scraped data has some data inconsistency with how it is pulled from the URL. The table column names has be renamed or sometimes re-done to correct class. With the downloading from <a href="https://www.govinfo.gov/app/search/">GovInfo</a>, there has been delays with how you pull to avoid being flagged for suspicion. This makes the process slower, especially when downloading large data sets. With the Wikipedia data, the best way to improve is improving data type conversation.</p>
+</section>
+<section id="assignment-5" class="level3">
+<h3 class="anchored" data-anchor-id="assignment-5">Assignment 5</h3>
+<p>YouTube API data on CNN channel</p>
+<p><img src="images/CNN_comments.png" class="img-fluid" width="315"></p>
+<p>This a word cloud of the most commented words on CNN’s YouTube videos. There is frequent uses of polarized words such as “joke” and “garbage” indicating negative opinions regarding the topics. There are mentions of “Trump”, “Harris” and “Biden” showing prominent discussion on these political figures during the election, specifically with the words, “vote” and “president”. There is strong viewer engagement and emotional responses to CNN’s content.</p>
+<p><img src="images/CnnLikes.png" class="img-fluid" width="269"></p>
+<p>This shows CNN’s video likes. The Video ID’s are provided but not the title so it is harder to infer specific topics and their engagement to audiences. However, we can still tell there is engagement in their videos through their likes and the audience stays interested. The high like count suggests that the content resonates with the viewers and may align with the viewer’s beliefs. Given the polarized comments, some videos may show public interest on the covered topics.</p>
+<p><img src="images/CNNvideos.png" class="img-fluid" width="312"></p>
+<p>The peaks show an increased of published videos during the time frame. October 28 has a peak in publishing which might correlate with breaking news or significant political events. Lower publishing numbers can reflect a period with fewer newsworthy events or when CNN focuses on fewer in-depth reports. With the spikes, the higher viewer demand during news cycle. CNN increases their content output to cover stories or maintain viewer interest, which can correlate with publishing frequency.</p>
 </section>
 <section id="resources" class="level3">
 <h3 class="anchored" data-anchor-id="resources">Resources:</h3>
