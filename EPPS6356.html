@@ -173,6 +173,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
   <li><a href="#assignment-1" id="toc-assignment-1" class="nav-link active" data-scroll-target="#assignment-1">Assignment 1</a></li>
   <li><a href="#assignment-2" id="toc-assignment-2" class="nav-link" data-scroll-target="#assignment-2">Assignment 2</a></li>
   <li><a href="#assignment-3" id="toc-assignment-3" class="nav-link" data-scroll-target="#assignment-3">Assignment 3</a></li>
+  <li><a href="#resources" id="toc-resources" class="nav-link" data-scroll-target="#resources">Resources:</a></li>
   </ul>
 </nav>
     </div>
@@ -416,6 +417,10 @@ Attaching package: 'dplyr'</code></pre>
 <p>ii. Overfitting and Overparameterization</p>
 <p>Overfitting occurs when a model learns the underlying trend in the data and the random noise. This typically happens when a model is too complex, such as having too many parameters relative to the amount of data. An overfit model may perform extremely well on historical (training) data but fail to generalize to new or unseen cases. In big data, overparameterization increases this risk. Overparameterization means using too many features or models that are overly flexible. For example, if a surveillance model includes irrelevant search queries that just happen to align with flu season, like “Oscar nominations”, it may identify seasonal coincidences instead of actual influenza activity. This leads to incorrect predictions when conditions change. To avoid overfitting, analysts rely on methods such as cross-validation, regularization, and out-of-sample testing. The goal is to build models that balance complexity, effectiveness, and generalizability, ensuring they remain useful when applied beyond the original dataset.</p>
 <p>Example from Google Flu Trends: Google Flu Trends was a project that tried to track influenza outbreaks using web search data. While it initially performed well, the model later produced large errors. One reason was that search behavior was influenced by media attention and public concern and not only actual flu cases. This illustrates how big data can reflect social noise, not just health outcomes.</p>
+</section>
+<section id="resources" class="level2">
+<h2 class="anchored" data-anchor-id="resources">Resources:</h2>
+<p><a href="https://github.com/hadley/ggplot2-book">ggplot2: elegant graphics for data analysis</a></p>
 
 
 </section>
