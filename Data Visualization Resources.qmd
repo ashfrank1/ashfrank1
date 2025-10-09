@@ -1,0 +1,6 @@
+---
+title: "Data Visualization Resources"
+format: html
+---
+
+[ggplot2: elegant graphics for data analysis](https://github.com/hadley/ggplot2-book)
