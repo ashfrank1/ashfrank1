@@ -1,0 +1,12 @@
+---
+title: "McKinseys_Charts"
+format: html
+date: 10/09/2025
+date-format: 'MMM DD, YYYY'
+---
+
+McKinsey provides clean, professional design with consistent typography, color schemes and layouts. The visuals are appealing and well structured. Across both, there are a wide variety of charts and it allows the data type to match the chart type. Every chart is accompanied by text explaining what it shows, why it matters, what the trend or insight is. This combination of visual and narrative elements allows non-specialist audiences to understand the core insights without extensive technical interpretation.
+
+[*Week in Charts*](https://www.mckinsey.com/featured-insights/week-in-charts) provides a more immediate, up-to-date representation of current events or evolving issues. The visuals tend to be straightforward and narrowly focused, prioritizing concise, digestible insights. [*Year in Charts*](https://www.mckinsey.com/featured-insights/year-in-review/year-in-charts) adopts a more comprehensive and reflective approach, synthesizing information across multiple domains to illustrate broader, long-term developments. The charts in this collection often integrate multiple metrics or layers of data within a single visual, emphasizing cumulative patterns and systemic trends over time.
+
+To further innovate, McKinsey could incorporate interactive elements that allow users to toggle between scenarios, time periods, or filters, helping personalize insights. Animated transitions between historical and projected data could enhance storytelling and engagement. Additionally, ensuring color palettes are fully accessible, including colorblind-friendly contrasts and shading, would improve inclusivity and ensure interpretive accuracy across diverse audiences.

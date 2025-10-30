@@ -1,0 +1,50 @@
+project:
+  type: website
+
+website:
+  title: "ashfrank1.github.io"
+  navbar:
+    left:
+      - href: index.qmd
+        text: Home
+      - href: about.qmd
+        text: About Me
+      - href: EPPS6354.qmd
+        text: Information Managment
+      - href: EPPS6302.qmd
+        text: Methods of Data Collection
+      - text: Data Visualization
+        menu:
+         - href: EPPS6356.qmd
+           text: EPPS6356 Assignments
+         - href: IngeDruckrey.qmd
+           text: Inge Druckrey:Teaching to see
+         - href: Journalism_Data.pdf
+           text: Journalism in the Age of Data
+         - href: Tufte_lecture.qmd
+           text: Review of Edward Tufte’s Lecture on Data Visualization
+         - href: Data visualization and data science, Hadley Wickham.qmd
+         - href: pitfalls.qmd
+           text: Big Data Analytics:Pitfalls and Overfitting
+         - href: prehackathon.qmd
+           text: Pre-hackathon
+         - href: McKinseys_Charts.qmd
+           text: McKinsey’s Charts        
+         - href: Data Visualization Resources.qmd
+           text: Data Visualization Resources
+      - href: AshleighFrankResume.pdf 
+        text: Resume
+      - href: Projects.qmd 
+        text: Projects
+      - href: Other.qmd
+        text: Other
+    
+
+format:
+  html:
+    theme: yeti
+    css: bootstrap.css
+    toc: true
+
+editor: visual
+

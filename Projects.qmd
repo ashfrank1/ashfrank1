@@ -1,0 +1,18 @@
+---
+title: "Projects"
+format: html
+---
+
+#### [Information Management Database Project](https://ashfrank1.shinyapps.io/ProjectApplication){.uri}
+
+[Database Final Project Paper](AshleighFrank_FinalProject.pdf)
+
+[Database Project Slides](https://slides.com/ashleigh-3/databaseproject)
+
+#### [Methods of Data Collection and Production Final Project Paper](Frank_Final_Project.pdf)
+
+[Methods of Data Collection and Production Final Presentation](Frank_Final_Presentation.pdf)
+
+#### [Positive Emotions Across Races](Positive_Emotions_Across_Races.pdf)
+
+[Ashleigh’s Data Guide](https://github.com/ashfrank1/Ashleigh-s-Data-Guide) A personalized checklist for handling messy data.

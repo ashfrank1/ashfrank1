@@ -1,0 +1,30 @@
+---
+title: "Data Visualization Resources"
+format: html
+---
+
+[ggplot2: elegant graphics for data analysis](https://github.com/hadley/ggplot2-book)
+
+<https://guides.library.duke.edu/datavis>
+
+<https://guides.lib.berkeley.edu/data-visualization>
+
+Shiny:
+
+<https://shiny.posit.co/r/getstarted/shiny-basics/lesson1/>
+
+[Shiny::Cheatsheet](shiny.pdf)
+
+<https://shiny.posit.co/r/articles/>
+
+R Studio
+
+<https://rstats.wtf/index.html>
+
+<https://p3m.dev/client/#/>
+
+[D3 github](https://github.com/d3/d3-selection/blob/main/README.md#selection_data)
+
+Other:
+
+[Notion Notes](https://www.notion.so/2657638f253f803ca190d10ff51f5eb3?v=2657638f253f806abd50000ca683ddf3&source=copy_link)

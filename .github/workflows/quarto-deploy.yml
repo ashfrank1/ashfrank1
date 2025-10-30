@@ -1,0 +1,22 @@
+name: Render and Deploy Quarto Site
+
+on:
+  push:
+    branches:
+      - master
+
+jobs:
+  build-deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v3
+      - uses: quarto-dev/quarto-actions/setup@v2
+        with:
+          quarto-version: '1.3.383'
+      - run: quarto render
+      - name: Deploy to GitHub Pages
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./_site
