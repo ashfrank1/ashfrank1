@@ -46,7 +46,7 @@
     "href": "Data Visualization Resources.html",
     "title": "Data Visualization Resources",
     "section": "",
-    "text": "ggplot2: elegant graphics for data analysis\nhttps://guides.library.duke.edu/datavis\nhttps://guides.lib.berkeley.edu/data-visualization\nShiny:\nhttps://shiny.posit.co/r/getstarted/shiny-basics/lesson1/\nShiny::Cheatsheet\nhttps://shiny.posit.co/r/articles/\nShiny Live examples\nR Studio\nhttps://rstats.wtf/index.html\nhttps://p3m.dev/client/#/\nD3 github\nOther:\nNotion Notes"
+    "text": "ggplot2: elegant graphics for data analysis\nhttps://guides.library.duke.edu/datavis\nhttps://guides.lib.berkeley.edu/data-visualization\nShiny:\nhttps://shiny.posit.co/r/getstarted/shiny-basics/lesson1/\nShiny::Cheatsheet\nhttps://shiny.posit.co/r/articles/\nShiny Live examples\nR Studio\nhttps://rstats.wtf/index.html\nhttps://p3m.dev/client/#/\nD3 github\nD3 gallery / D3 | Observable\nOther:\nNotion Notes"
   },
   {
     "objectID": "about.html",
